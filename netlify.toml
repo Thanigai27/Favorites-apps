@@ -1,6 +1,6 @@
 # netlify.toml
 [build]
-  base = "apps/frontend"   # If your code is inside apps/frontend
+  base = "favorites-app/apps"   # If your code is inside apps/frontend
   publish = "build"        # React build output
   command = "npm run build"
 
