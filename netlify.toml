@@ -1,0 +1,12 @@
+# netlify.toml
+[build]
+  base = "apps/frontend"   # If your code is inside apps/frontend
+  publish = "build"        # React build output
+  command = "npm run build"
+
+# For Vite change publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
