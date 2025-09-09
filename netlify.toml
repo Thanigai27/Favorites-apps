@@ -1,10 +1,7 @@
-# netlify.toml
 [build]
-  base = "favorites-app/apps"   # If your code is inside apps/frontend
-  publish = "build"        # React build output
+  base = "apps"
   command = "npm run build"
-
-# For Vite change publish = "dist"
+  publish = "apps/dist"
 
 [[redirects]]
   from = "/*"
