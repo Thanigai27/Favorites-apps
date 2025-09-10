@@ -1,1 +1,1 @@
-echo 20.14.0 > .nvmrc
+echo v20.14.0 > .nvmrc
